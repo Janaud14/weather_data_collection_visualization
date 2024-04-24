@@ -1,0 +1,7 @@
+﻿requests==2.31.0
+pymongo==4.6.3
+Flask==3.0.3
+dash
+dash-core-components
+dash-html-components
+

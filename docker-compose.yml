@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongodb/mongodb-community-server:latest
+    container_name: mymongodb
+    hostname: mymongodb
+    ports:
+      - "27017:27017"
+    networks:
+      - crawler-net  
+
+  weather_app:
+    build:
+      context: .
+      dockerfile: Dockerfile  
+    container_name: weather_app
+    depends_on:
+      - mongodb
+    environment:
+      - MONGO_URI=mongodb://mongodb:27017/meteo_db
+    networks:
+      - crawler-net
+
+  flask_app:
+    build:
+      context: .
+      dockerfile: Dockerfile  
+    container_name: flask_app
+    depends_on:
+      - mongodb
+    ports:
+      - "5000:5000"
+    networks:
+      - crawler-net
+
+networks:
+  crawler-net:
+    driver: bridge
