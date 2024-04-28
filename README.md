@@ -1,5 +1,5 @@
 # weather_data_collection_visualization
-A project with PMN School / Master 1 - Data Engineer : Utilizing Flask, MongoDB, and optionally Docker and Dash to visualize meteorological data from a RESTful API. Efficient data collection, storage, and interactive visualization empower informed decision-making.
+Un projet réalisé lors de mon Master 1 avec l'école PMN - Data Engineer : Utilisant Flask, MongoDB, Docker et Dash pour visualiser les données météorologiques à partir d'une ApiREST. 
 # Fonctionnement
 ### App.py : 
 Ce fichier contient le script Python principal qui interroge l'API OpenWeather pour récupérer les données météorologiques d'une ville spécifique. Les données sont ensuite stockées dans une base de données MongoDB.
