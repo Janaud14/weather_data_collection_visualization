@@ -5,7 +5,7 @@ import os
 import time
 import logging
 
-API_KEY = 'e5229b3cc815b96126e9db4b7710d755'
+API_KEY = 'YOUR KEY'
 
 def ingest_weather_data():
     try:
