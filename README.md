@@ -48,3 +48,4 @@ Ce fichier spécifie les dépendances Python nécessaires pour exécuter l'appli
 8) Lancer "app 1.py" via le shell ou un IDE (Jupyter Notebook, Pycharm, Visual Studio Code)
 9) En allant sur MongoDB vous devez voir apparaître deux dossier : weather et city 
 
+### Partie II
