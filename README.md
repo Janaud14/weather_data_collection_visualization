@@ -24,6 +24,7 @@ Il gère également la configuration des conteneurs Docker et des réseaux.
 Ce fichier spécifie les dépendances Python nécessaires pour exécuter l'application.
 
 ## Fonctionement : 
+### Partie I
 1) Assurez-vous d'avoir Docker et Docker Compose et MongoDB installés sur votre système.
 2) Clonez ce dépôt sur votre machine locale.
 3) Allez sur https://openweathermap.org/ et creéz un compte
