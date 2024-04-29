@@ -34,7 +34,8 @@ Ce fichier spécifie les dépendances Python nécessaires pour exécuter l'appli
    cd /chemin/vers/votre/projet
    ```
    Si il y a des espaces dans le chemin d'accès, mettre des guillemets
-   (exemple : "/C/Users/Thomas Dupont/mon_projet_data/") Créer l'image avec docker qui va utiliser le fichier docker-compose.yml
+   (exemple : "/C/Users/Thomas Dupont/mon_projet_data/")
+   Créer l'image avec docker qui va utiliser le fichier docker-compose.yml
    ```
    docker-compose --build
    ```
