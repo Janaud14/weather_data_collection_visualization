@@ -1,7 +1,12 @@
 # Weather Data Collection Visualization
 Un projet réalisé lors de mon Master 1 - Data Engineer avec l'école PMN : Utilisant Flask, MongoDB, Docker et Dash pour visualiser les données météorologiques à partir d'une ApiREST.
 Un travail de groupe avec Kemet Bouka Tchamba et Olaf Zannou
-![MongoDB logo](https://www.thehotskills.com/wp-content/uploads/2019/07/mongodb-logo-png.png)
+
+![MongoDB logo](https://databasejoe.com/wp-content/uploads/2019/08/mongo-db-logo.png)
+![Docker logo](https://www.extraordy.com/wp-content/uploads/2014/08/docker.png)
+![Dash logo](https://i0.wp.com/lifewithdata.com/wp-content/uploads/2022/02/plotly_logo-1.jpeg?resize=300%2C95&ssl=1)
+![Flask logo](https://th.bing.com/th/id/OIP.p1xsgNl4drd6kZpaHkRNRQAAAA?w=118&h=128&c=7&r=0&o=5&pid=1.7)
+
 
 ## Fichiers
 ### app 1.py : 
