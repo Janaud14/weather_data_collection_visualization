@@ -3,11 +3,11 @@ Un projet réalisé lors de mon Master 1 - Data Engineer avec l'école PMN : Uti
 Un travail de groupe avec Kemet Bouka Tchamba et Olaf Zannou
 
 ## Fichiers
-### App.py : 
+### app 1.py : 
 Ce fichier contient le script Python principal qui interroge l'API OpenWeather pour récupérer les données météorologiques d'une ville spécifique. Les données sont ensuite stockées dans une base de données MongoDB.
 ### weather_rest.py : 
 Ce fichier contient un script Python qui utilise Flask pour créer une API REST qui expose les données météorologiques stockées dans la base de données MongoDB. Les utilisateurs peuvent interroger cette API pour obtenir des données météorologiques via des requêtes HTTP.
-### weather_dash : 
+### weather_dash.py : 
 Ce fichier contient un script Python qui utilise Dash pour créer une application de datavisualisation interactive. Les données météorologiques stockées dans la base de données MongoDB sont utilisées pour créer des graphiques et des tableaux de bord interactifs.
 ### Dockerfile : 
 Ce fichier Docker permet de construire une image Docker pour exécuter l'application Python. Il spécifie les dépendances et l'environnement nécessaires pour exécuter l'application.
@@ -18,6 +18,10 @@ Il gère également la configuration des conteneurs Docker et des réseaux.
 Ce fichier spécifie les dépendances Python nécessaires pour exécuter l'application.
 
 ## Fonctionement : 
-1) Assurez-vous d'avoir Docker et Docker Compose installés sur votre système.
+1) Assurez-vous d'avoir Docker et Docker Compose et MongoDB installés sur votre système.
 2) Clonez ce dépôt sur votre machine locale.
-3) 
+3) Allez sur https://openweathermap.org/ et creéz un compte
+4) Allez sur l'onglet "API" et générez une clé API pour ensuite l'insérer à la place de "YOUR API KEY" dans le fichier "app 1.py"
+5) Lancez MongoDB Dekstop avec le localhost et le port correspondant
+6) Lancer "app 1.py" via le shell ou un IDE (Jupyter Notebook, Pycharm, Visual Studio Code)
+7) 
