@@ -2,7 +2,7 @@
 Un projet réalisé lors de mon Master 1 - Data Engineer avec l'école PMN : Utilisant Flask, MongoDB, Docker et Dash pour visualiser les données météorologiques à partir d'une ApiREST.
 Un travail de groupe avec Kemet Bouka Tchamba et Olaf Zannou
 
-## Fonctionnement
+## Fichiers
 ### App.py : 
 Ce fichier contient le script Python principal qui interroge l'API OpenWeather pour récupérer les données météorologiques d'une ville spécifique. Les données sont ensuite stockées dans une base de données MongoDB.
 ### weather_rest.py : 
@@ -16,3 +16,8 @@ Ce fichier Docker Compose définit les services nécessaires pour exécuter l'en
 Il gère également la configuration des conteneurs Docker et des réseaux.
 ### requirements.txt : 
 Ce fichier spécifie les dépendances Python nécessaires pour exécuter l'application.
+
+## Fonctionement : 
+1) Assurez-vous d'avoir Docker et Docker Compose installés sur votre système.
+2) Clonez ce dépôt sur votre machine locale.
+3) 
