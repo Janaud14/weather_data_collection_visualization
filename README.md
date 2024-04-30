@@ -42,7 +42,7 @@ Ce fichier spécifie les dépendances Python nécessaires pour exécuter l'appli
    ```
    Puis taper pour lancer l'image créé
    ```
-   docker-composer up
+   docker-compose up
    ````
    Pour vérifier la présence de l'image, entrer dans le shell :
    ```
