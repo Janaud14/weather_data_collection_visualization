@@ -40,6 +40,10 @@ Ce fichier spécifie les dépendances Python nécessaires pour exécuter l'appli
    ```
    docker-compose --build
    ```
+   Puis taper pour lancer l'image créé
+   ```
+   docker-composer up
+   ````
    Pour vérifier la présence de l'image, entrer dans le shell :
    ```
    docker images
