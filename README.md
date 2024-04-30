@@ -54,5 +54,7 @@ Ce code Python utilise le framework Flask pour créer une API web qui fournit de
 2) Tapez dans la barre d'adresse de votre navigateur : http://localhost:8080/weather pour regarder le résultat
 
 ### Partie III
-1) Lancer weather-dash" via le shell ou l'IDE de votre choix
-2) Ce 
+1) Lancer "weather-dash" via le shell ou l'IDE de votre choix
+Ce code utilise Dash pour créer une application web qui récupère les données météorologiques à partir d'une API REST, les affiche sous forme de graphique, et les rend accessibles via un navigateur web.
+2) Ouvrir son navigateur web et taper dans la barre d'adresse : http://localhost:8050 pour voir le résultat avec Dash
+Vous devriez voir l'interface utilisateur de l'application Dash, qui comprendra probablement un titre indiquant "Visualisation des données météorologiques" ainsi qu'un graphique affichant les températures par ville sous forme de diagramme à barres.
