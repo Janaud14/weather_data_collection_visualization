@@ -10,7 +10,7 @@ app = dash.Dash(__name__)
 response = requests.get('http://localhost:8080/weather')
 weather_data = response.json()
 
-# extraction des noms des villes et et  la température associée
+# Extraction des noms des villes et de la température associée
 cities = [data['ville'] for data in weather_data]
 temperatures = [data['temperature'] for data in weather_data]
 
