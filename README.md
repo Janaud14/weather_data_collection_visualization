@@ -49,3 +49,10 @@ Ce fichier spécifie les dépendances Python nécessaires pour exécuter l'appli
 9) En allant sur MongoDB vous devez voir apparaître deux dossier : weather et city 
 
 ### Partie II
+1) Lancer "weather_rest" via le shell ou l'IDE de votre choix
+Ce code Python utilise le framework Flask pour créer une API web qui fournit des données météorologiques stockées dans une base de données MongoDB.
+2) Tapez dans la barre d'adresse de votre navigateur : http://localhost:8080/weather pour regarder le résultat
+
+### Partie III
+1) Lancer weather-dash" via le shell ou l'IDE de votre choix
+2) Ce 
